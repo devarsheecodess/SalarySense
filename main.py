@@ -7,6 +7,8 @@ try:
 except Exception as e:
     st.error(f"Error loading model: {e}")
 
+st.set_page_config(page_title="SalarySense", page_icon="💰") 
+
 st.markdown("""
     <style>
         .title {
